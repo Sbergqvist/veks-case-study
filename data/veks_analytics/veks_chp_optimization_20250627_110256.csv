@@ -1,0 +1,25 @@
+Hour,CHPOptimalHour,HeatingDemandPeriod,SpotPriceDKK
+0,Off-Peak,Low Demand,579.5245075833334
+1,Off-Peak,Low Demand,530.66855975
+2,Off-Peak,Low Demand,507.83795848333335
+3,Off-Peak,Low Demand,497.60413558333335
+4,Off-Peak,Low Demand,497.4529061
+5,Off-Peak,Low Demand,515.1031459666667
+6,Off-Peak,High Demand,609.6469042000001
+7,Peak Price - CHP Optimal,High Demand,586.9307304
+8,Peak Price - CHP Optimal,High Demand,501.63581411666667
+9,Peak Price - CHP Optimal,High Demand,313.93613405
+10,Peak Price - CHP Optimal,Medium Demand,143.8671402
+11,Peak Price - CHP Optimal,Medium Demand,78.48914676666666
+12,Off-Peak,Medium Demand,43.31960013333333
+13,Off-Peak,Medium Demand,19.1146629
+14,Off-Peak,Medium Demand,18.821120683333334
+15,Off-Peak,Medium Demand,41.72711445
+16,Off-Peak,Medium Demand,96.5924668
+17,Peak Price - CHP Optimal,High Demand,287.63851031666667
+18,Peak Price - CHP Optimal,High Demand,526.24423175
+19,Peak Price - CHP Optimal,High Demand,725.4972373333333
+20,Peak Price - CHP Optimal,High Demand,930.7897047166666
+21,Off-Peak,High Demand,931.88054175
+22,Off-Peak,High Demand,802.5288273666666
+23,Off-Peak,Low Demand,651.9698637666667
