@@ -4,6 +4,15 @@
 
 This project implements a complete data pipeline that fetches electricity spot prices from Energinet's API, stores them in Parquet format, and creates interactive visualizations showing daily average prices over time.
 
+**This project includes the following features:**
+- **Core Pipeline**: Automated data fetching from Energinet API with Parquet storage
+- **Interactive Dashboards**: HTML visualizations showing daily electricity price trends
+- **Machine Learning**: Price forecasting, CHP optimization, and anomaly detection
+- **Power BI Ready**: CSV exports optimized for Power BI dashboard creation
+- **Testing**: Comprehensive test suite to verify pipeline functionality
+- **Documentation**: Professional README and code documentation
+
+
 ## Case Requirements Met
 
 ### Core Requirements (Case 1)
