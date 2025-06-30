@@ -128,18 +128,17 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# VEKS Case Study - Internal documentation (not for GitHub)
+internal_docs/
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db 
+# VEKS Case Study - Advanced analytics data (bonus features)
+data/veks_analytics/
+data/veks_ml_data/
+data/veks_ml_results/
+data/veks_geographic/
+
+# VEKS Case Study - Old data files (keep latest only)
+data/*.parquet
+!data/electricity_prices_*.parquet
+data/*.html
+!data/electricity_prices_dashboard.html 

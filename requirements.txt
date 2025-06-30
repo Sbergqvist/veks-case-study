@@ -1,16 +1,17 @@
-# Core dependencies for Energinet Data Pipeline
+# Core dependencies for Energinet Data Pipeline (Case 1)
 requests>=2.31.0
 pandas>=2.0.0
 plotly>=5.15.0
 pyarrow>=12.0.0  # For Parquet support
 
-# Machine Learning dependencies
-scikit-learn>=1.3.0
-xgboost>=1.7.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-statsmodels>=0.14.0
+# Optional: Advanced analytics dependencies
+# Uncomment for ML and advanced features
+# scikit-learn>=1.3.0
+# xgboost>=1.7.0
+# numpy>=1.24.0
+# matplotlib>=3.7.0
+# seaborn>=0.12.0
+# statsmodels>=0.14.0
 
 # Development dependencies
 PyPDF2>=3.0.0  # For reading the case PDF
