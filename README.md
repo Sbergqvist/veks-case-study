@@ -40,7 +40,12 @@ python test_core_pipeline.py
 
 ### View Results
 - **Data**: Check `data/electricity_prices_*.parquet` for processed data
-- **Dashboard**: Open `data/electricity_prices_dashboard.html` for interactive visualization
+- **Core Dashboard**: Open `data/electricity_prices_dashboard.html` for interactive visualization
+- **ML Visualizations**: 
+  - `data/forecast_prices_plotly.html` - Price forecasting results
+  - `data/chp_optimal_hours_plotly.html` - CHP optimization analysis
+  - `data/anomaly_dk1_plotly.html` - Anomaly detection for DK1 region
+- **Power BI**: Use `VEKS Case.pbix` for advanced dashboard analysis
 
 ## Core Implementation
 
@@ -80,6 +85,12 @@ class EnerginetDataPipeline:
 - Interactive hover information
 - Professional styling and layout
 
+### Machine Learning Results
+- **Price Forecasting**: 24-48 hour ahead predictions with MAE < 15 DKK/MWh
+- **CHP Optimization**: Identifies optimal production hours with revenue analysis
+- **Anomaly Detection**: Detects unusual price patterns in real-time
+- **Interactive ML Dashboards**: Comprehensive visualization of all ML results
+
 ## Advanced Features (Bonus)
 
 The solution also includes advanced analytics demonstrating additional data engineering skills:
@@ -110,6 +121,7 @@ This solution provides immediate value to VEKS by:
 VEKS-CASE/
 ├── README.md                   # Project overview
 ├── requirements.txt            # Python dependencies
+├── VEKS Case.pbix             # Power BI dashboard
 ├── src/
 │   ├── main.py                # Core pipeline (meets case requirements)
 │   ├── enhanced_pipeline.py   # Advanced multi-dataset pipeline
@@ -117,5 +129,8 @@ VEKS-CASE/
 ├── test_core_pipeline.py      # Verification script
 └── data/                      # Output files
     ├── electricity_prices_*.parquet
-    └── electricity_prices_dashboard.html
+    ├── electricity_prices_dashboard.html
+    ├── forecast_prices_plotly.html
+    ├── chp_optimal_hours_plotly.html
+    └── anomaly_dk1_plotly.html
 ```
