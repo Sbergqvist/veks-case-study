@@ -4,7 +4,7 @@
 
 This project implements a complete data pipeline that fetches electricity spot prices from Energinet's API, stores them in Parquet format, and creates interactive visualizations showing daily average prices over time.
 
-## Case Requirements Met ✅
+## Case Requirements Met
 
 ### Core Requirements (Case 1)
 1. **Relevant Dataset**: Electricity spot prices from Energinet's API
@@ -110,40 +110,3 @@ VEKS-CASE/
     ├── electricity_prices_*.parquet
     └── electricity_prices_dashboard.html
 ```
-
-## Files for Review
-
-### Core Files (Required)
-- `src/main.py` - Core pipeline implementation
-- `requirements.txt` - Python dependencies
-- `test_core_pipeline.py` - Verification script
-
-### Advanced Files (Bonus)
-- `src/enhanced_pipeline.py` - Advanced multi-dataset pipeline
-- `src/veks_ml_analytics.py` - Machine learning analytics
-
-## Technical Discussion Points
-
-### Architecture Design
-- **Modular Pipeline**: Clean separation of concerns
-- **Error Handling**: Comprehensive exception management
-- **Data Quality**: Validation and cleaning processes
-- **Scalability**: Production-ready design
-
-### Implementation Details
-- **API Integration**: Robust client with retry logic
-- **Data Processing**: Efficient ETL pipeline
-- **Storage**: Optimized Parquet format
-- **Visualization**: Interactive Plotly dashboard
-
-### Advanced Features
-- **Machine Learning**: Price forecasting and anomaly detection
-- **Business Intelligence**: CHP optimization and revenue analysis
-- **Geographic Intelligence**: Regional market dynamics
-- **Power BI Integration**: Professional dashboard framework
-
----
-
-**This submission demonstrates comprehensive data engineering skills while providing practical business value to VEKS' district heating operations.**
-
-*Ready for technical interview discussion!* 🚀 
